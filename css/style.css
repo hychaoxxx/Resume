@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: -apple-system,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;
+}
+body{
+	font-size: 16px;
+	background: #ddd;
+	padding: 30px 0;
+}
+h2,h3{
+	font-weight: normal!important;
+}
+li{
+	list-style: none;
+}
+.clearfix:after{
+	display:block;
+	clear:both;
+	content:"";
+	visibility:hidden;
+	height:0;
+}
+.container{
+	width: 800px;
+	margin: 0 auto;
+	padding: 50px;
+	background: #fff;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.1);
+}
+.avstar{
+	width: 150px;
+	margin: 0 auto;
+	text-align: center;
+	color: #777;
+}
+.avstar img{
+	border-radius: 50%;
+}
+.contact{
+	color: #ccc;
+	margin: 10px auto;
+	font-size: 16px;
+}
+.contact ul{
+	width: 60%;
+	margin: 0 auto;
+}
+.contact ul li{
+	line-height: 2rem;
+	float: left;
+	width: 50%;
+}
+.contact ul li span{
+	display: inline-block;
+	margin-right: 10px;
+}
+.contact ul li span img{
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+.profile h2{
+	color: #888;
+	border-bottom: 1px dotted #ddd;
+	padding-bottom: 1rem;
+}
+.profile ul{
+	padding: 1rem 0;
+}
+.profile ul li{
+	color: #555;
+	float: left;
+	width: 50%;
+	line-height: 2rem;
+}
+.profile ul li span{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 1.5rem;
+}
+.profile ul li span img{
+	width: 16px;
+}
+.education p{
+	padding: 1rem 0;
+	color: #555;
+	line-height: 2rem;
+}
+.education p span{
+	width: 33.333%;
+	display: inline-block;
+}
+.work-container{
+	padding: 1rem 0;
+	color: #555;
+	line-height: 2rem;
+}
+.work h3{
+	line-height: 2rem;
+	color: #999;
+	font-weight: 500;
+}
+.work p{
+	text-indent: 2rem;
+}
